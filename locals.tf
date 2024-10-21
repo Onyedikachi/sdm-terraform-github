@@ -17,7 +17,7 @@ locals {
     "sdm-service": {
         description: "Automation for SDM Product Services"
         gitignore_template = "Go"
-        name = "sdm-terraform-github"
+        name = "sdm-service"
         topics = ["df-devops", "product service"]
         visibility = "public"
     }
