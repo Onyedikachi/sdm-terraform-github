@@ -14,8 +14,15 @@ locals {
         topics = ["df-devops", "terraform-github"]
         visibility = "public"
     }
-    "sdm-service": {
+    "sdm-terraform-product-service": {
         description: "Automation for SDM Product Services"
+        gitignore_template = "Terraform"
+        name = "sdm-terraform-product-service"
+        topics = ["df-devops", "terraform-product-service"]
+        visibility = "public"
+    }
+    "sdm-service": {
+        description: "Example"
         gitignore_template = "Go"
         name = "sdm-service"
         topics = ["df-devops", "product-service"]
